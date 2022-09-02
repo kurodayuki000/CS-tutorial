@@ -6,7 +6,7 @@ namespace Chapter_0002
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("私はオムライスが好きか？1.Yes 2.No");
+            Console.WriteLine("私はサイクリングが好きか？1.Yes 2.No");
             var text = Console.ReadLine();
             if(text == "1")
             {
@@ -18,7 +18,7 @@ namespace Chapter_0002
             }
             else
             {
-                Console.WriteLine("入力がまりがっています。");
+                Console.WriteLine("入力が間違っています。");
             }
             Console.WriteLine("neterキーで終了します。");
             Console.ReadLine();
