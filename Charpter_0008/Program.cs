@@ -6,56 +6,36 @@ namespace Chapter_0008
     {
         static void Main(string[] args)
         {
-            var XYear = 0;
-            while (true)
-            {
-                Console.WriteLine("年はなんですか？");
-                var line = Console.ReadLine();
-                if(Int32.TryParse(line, out XYear))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("数値を入力してください。");
-                }
-            }
+            var y = GetInputAsNUmber("年はなんですか?");
+            var m = GetInputAsNUmber("月はなんですか?");
+            var d = GetInputAsNUmber("日はなんですか?");
 
-            var xMonth = 0;
-            while (true)
-            {
-                Console.WriteLine("月はなんですか？");
-                var line = Console.ReadLine();
-                if (Int32.TryParse(line, out xMonth))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("数値を入力してください。");
-                }
-            }
 
-            var xDay = 0;
-            while (true)
-            {
-                Console.WriteLine("日はなんですか？");
-                var line = Console.ReadLine();
-                if (Int32.TryParse(line, out xDay))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("数値を入力してください。");
-                }
-            }
-            var inputDate = new DateTime(XYear, xMonth, xDay);
+            var inputDate = new DateTime(y, m, d);
             var today = DateTime.Today;
             var ts = today - inputDate;
 
             Console.WriteLine(ts.TotalDays.ToString() + "日です。");
 
+        }
+
+        private static Int32 GetInputAsNUmber(String puestionText)
+        {
+            var XYear = 0;
+            while (true)
+            {
+                Console.WriteLine(puestionText);
+                var line = Console.ReadLine();
+                if (Int32.TryParse(line, out XYear))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("数値を入力してください。");
+                }
+            }
+            return XYear;
         }
     }
 }
