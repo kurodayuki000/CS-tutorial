@@ -1,0 +1,15 @@
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/bin/Debug/net6.0/Chapter_0010
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/bin/Debug/net6.0/Chapter_0010.deps.json
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/bin/Debug/net6.0/Chapter_0010.runtimeconfig.json
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/bin/Debug/net6.0/Chapter_0010.dll
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/bin/Debug/net6.0/Chapter_0010.pdb
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.csproj.AssemblyReference.cache
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.AssemblyInfoInputs.cache
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.AssemblyInfo.cs
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.csproj.CoreCompileInputs.cache
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.dll
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/refint/Chapter_0010.dll
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.pdb
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/Chapter_0010.genruntimeconfig.cache
+/Users/kurodayuuki/C#/CS-tutorial/Chapter_0010/obj/Debug/net6.0/ref/Chapter_0010.dll
